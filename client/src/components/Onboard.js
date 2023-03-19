@@ -24,7 +24,7 @@ const Onboard = () => {
           Choose a job you love, and you will never have to work a day in your
           life
         </h1>
-        <Link to="/register">
+        <Link to="/swrong">
           <button className="btn-warning text-center">Explore</button>
         </Link>
       </div>

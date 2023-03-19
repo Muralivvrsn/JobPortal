@@ -4,8 +4,9 @@ const controller = require("../controllers/controller");
 
 
 router.post('/register',controller.register);
-router.post('/login',controller.login);
-router.get('/post',controller.posts);
+router.get('/login',controller.login);
+router.get('/home',controller.home);
+router.get('/jobs',controller.jobs)
 
 
 module.exports = router;
